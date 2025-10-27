@@ -1,11 +1,11 @@
 # Waybar Pomodoro Timer
 A simple, stateful pomodoro timer script for Waybar, packaged for easy installation.
 ## Installation
+1. Clone this repository: ```git clone https://github.com/anik-m/Waybar-Pomodoro-Timer``
+2. Navigate into the directory: ```cd Waybar-Pomodoro-Timer```
 ### Standard Python Installation (All other distros)
 
-1. Clone this repository or download the files into a directory (e.g., ~/code/waybar-pomodoro-project). 
-2. Navigate into the directory: cd ~/code/waybar-pomodoro-project 
-3. Install the package using pip. Using the -e flag (editable) is recommended, as it links the package to your source files, allowing you to make changes without reinstalling.
+Install the package using pip. Using the -e flag (editable) is recommended, as it links the package to your source files, allowing you to make changes without reinstalling.
 ```
 pip install -e .
 ```
@@ -17,10 +17,8 @@ pip install .
 ### Arch Linux Installation 
 Using pip to install packages globally is discouraged on Arch Linux. The recommended way is to build and install a native package using makepkg.
 
-1. Clone this repository: 
-2. ```cd waybar-pomodoro```
 
-2. Build the package: ```makepkg -si```
+Build the package: ```makepkg -si```
 
 After installation (with either method), the command waybar-pomodoro will be available in your system's path.
 
