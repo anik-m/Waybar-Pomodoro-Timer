@@ -1,7 +1,7 @@
 # Waybar Pomodoro Timer
 A simple, stateful pomodoro timer script for Waybar, packaged for easy installation.
 ## Installation
-1. Clone this repository: ```git clone https://github.com/anik-m/Waybar-Pomodoro-Timer``
+1. Clone this repository: ```git clone https://github.com/anik-m/Waybar-Pomodoro-Timer```
 2. Navigate into the directory: ```cd Waybar-Pomodoro-Timer```
 ### Standard Python Installation (All other distros)
 
