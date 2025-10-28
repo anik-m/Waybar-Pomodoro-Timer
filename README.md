@@ -15,10 +15,10 @@ If you don't want to edit it, you can just run:
 pip install .
 ```
 ### Arch Linux Installation 
-Using pip to install packages globally is discouraged on Arch Linux. The recommended way is to build and install a native package using makepkg.
+Using pip to install packages globally is discouraged on Arch Linux. Instead, use pipx.
 
 
-Build the package: ```makepkg -si```
+Build the package: ```pipx install .```
 
 After installation (with either method), the command waybar-pomodoro will be available in your system's path.
 
