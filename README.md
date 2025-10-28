@@ -33,12 +33,12 @@ Update your Waybar config file to use the new waybar-pomodoro command. Note that
     // ... other modules
     "custom/pomodoro": {
         "format": "{}",
-        "exec": "waybar-pomodoro", // <-- No full path needed!
+        "exec": "waybar-pomodoro", // <-- Provide full path if needed
         "return-type": "json",
         "interval": 1,
-        "on-click": "waybar-pomodoro toggle",
-        "on-click-right": "waybar-pomodoro cycle",
-        "on-click-middle": "waybar-pomodoro stop"
+        "on-click": "waybar-pomodoro toggle", // <-- Provide full path if needed
+        "on-click-right": "waybar-pomodoro cycle", // <-- Provide full path if needed
+        "on-click-middle": "waybar-pomodoro stop" // <-- Provide full path if needed
     }
     // ... other modules
 ]
