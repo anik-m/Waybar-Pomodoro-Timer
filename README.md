@@ -18,7 +18,9 @@ pip install .
 Using pip to install packages globally is discouraged on Arch Linux. Instead, use pipx.
 
 
-```pipx install .```
+```
+pipx install .
+```
 
 After installation (with either method), the command waybar-pomodoro will be available in your system's path.
 
