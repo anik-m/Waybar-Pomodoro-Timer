@@ -8,9 +8,9 @@ from enum import Enum, auto
 
 # --- Configuration ---
 # You can adjust these timers (in minutes)
-WORK_MINS = 25
-SHORT_BREAK_MINS = 5
-LONG_BREAK_MINS = 15
+WORK_MINS = 45
+SHORT_BREAK_MINS = 15
+LONG_BREAK_MINS = 45
 SESSIONS_PER_CYCLE = 4  # Number of work sessions before a long break
 
 STATE_FILE = os.path.expanduser("~/.cache/pomodoro_state.json")
