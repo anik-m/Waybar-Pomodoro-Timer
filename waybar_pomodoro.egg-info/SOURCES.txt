@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+waybar_pomodoro/__init__.py
+waybar_pomodoro/core.py
+waybar_pomodoro/main.py
+waybar_pomodoro.egg-info/PKG-INFO
+waybar_pomodoro.egg-info/SOURCES.txt
+waybar_pomodoro.egg-info/dependency_links.txt
+waybar_pomodoro.egg-info/entry_points.txt
+waybar_pomodoro.egg-info/top_level.txt
